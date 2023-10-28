@@ -3,33 +3,44 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
+    {
+      title: 'Map View',
+      Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+      description: (
+        <>
+          Find your current location, search for places or find new cyclying 
+          paths - the choice is yours. Map tiles are provided by CyclOSM,
+          a custom OpenStreetMap layer.
+        </>
+      ),
+    },
   {
-    title: 'Easy to Use',
+    title: 'Route Planner',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Plan your next bicycle trip with the power of GraphHopper, a routing
+        engine which will plan the best route for you and your bicycle.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Points of Interest',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Find useful places such as bicycle parking, water fountains or benches near you. 
+        Contribute to the community by adding or reviewing points of interest.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Community Collaboration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Earn points by contributing to the community and keep track of your progress.
+        Compete with other users and get to the top of the leaderboard.
       </>
     ),
   },
@@ -37,7 +48,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Project X',
+  tagline: 'Community collaboration platform for bicycle users',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Project X',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Project X Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,11 +76,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ES-Project-X',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,43 +92,53 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
           },
+          {},
           {
-            title: 'Community',
+            title: 'Team',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Diogo Paiva',
+                href: 'https://github.com/DiogoPaiva21'
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Gonçalo Silva',
+                href: 'https://github.com/GoncaloSilva25',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Guilherme Antunes',
+                href: 'https://github.com/SysteM1922',
               },
+              {
+                label: 'João Fonseca',
+                href: 'https://github.com/joaompfonseca',
+              },
+              {
+                label: 'Pedro Rasinhas',
+                href: 'https://github.com/r4sinhas',
+              }
             ],
           },
+          {},
           {
-            title: 'More',
+            title: 'Useful Links',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Documentation',
+                href: 'https://es-project-x.github.io/documentation/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                href: 'https://github.com/ES-Project-X',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project X, Software Engineering 2023/24, Universidade de Aveiro. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
