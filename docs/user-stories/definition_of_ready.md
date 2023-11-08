@@ -23,7 +23,7 @@ DoR follows the INVEST model, emphasizing the following key principles for tasks
 
 Structured conditions, actions, and expected results guide task completion and validation. It is based on the format:
 
-- Given &lt;context&gt;, When &lt;action&gt;, then &lt;result&gt;
+- **Given** &lt;context&gt;, **When** &lt;action&gt;, **Then** &lt;result&gt;
 
 
 ## Estimation in Story Points
