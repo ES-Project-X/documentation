@@ -20,4 +20,4 @@ Our architecture revolves around the cloud services provided by Amazon Web Servi
 
 ## Architecture Diagram
 
-![Architecture Diagram](/img/architecture_diagram_v1.0.svg)
+![Architecture Diagram](/img/architecture_diagram_v2.0.svg)
