@@ -4,7 +4,7 @@
 
 This repository contains the Docusaurus project for generating our documentation website.
 
-**Course:** Software Engineering (2023/2024)
+**Course:** Software Engineering (2023/2024).
 
 ## Running Locally
 
