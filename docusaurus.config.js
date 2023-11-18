@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Project X',
   tagline: 'Community collaboration platform for bicycle users',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.ico',
 
   // Set the production url of your site here
   url: 'https://es-project-x.github.io',
@@ -64,7 +64,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Project X',
         logo: {
@@ -76,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Documentation',
           },
           {
             href: 'https://github.com/ES-Project-X',
@@ -92,8 +91,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs/intro',
+                label: 'User Stories',
+                to: '/docs/category/user-stories',
+              },
+              {
+                label: 'Sprints',
+                to: '/docs/category/sprints',
+              },
+              {
+                label: 'Architecture',
+                to: '/docs/architecture',
               },
             ],
           },

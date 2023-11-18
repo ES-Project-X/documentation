@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
     {
       title: 'Map View',
-      Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+      Svg: require('@site/static/img/doc-map-view-no-bg.svg').default,
       description: (
         <>
           Find your current location, search for places or find new cyclying 
@@ -16,7 +16,7 @@ const FeatureList = [
     },
   {
     title: 'Route Planner',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/doc-route-planner-no-bg.svg').default,
     description: (
       <>
         Plan your next bicycle trip with the power of GraphHopper, a routing
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Points of Interest',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/doc-poi-no-bg.svg').default,
     description: (
       <>
         Find useful places such as bicycle parking, water fountains or benches near you. 
@@ -36,7 +36,7 @@ const FeatureList = [
   },
   {
     title: 'Community Collaboration',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/doc-community-no-bg.svg').default,
     description: (
       <>
         Earn points by contributing to the community and keep track of your progress.
