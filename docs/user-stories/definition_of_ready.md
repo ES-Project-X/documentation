@@ -1,10 +1,20 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Definition of Ready
 
 The **Definition of Ready** (DoR) is a set of conditions that must be met before a user story can be accepted into a sprint. It is a collaborative effort between the product owner and the development team to ensure that user stories are well-defined and ready to be worked on.
+
+In Jira, user stories are assigned a developer that's responsible for them, the number of stories points, and its description refers the added value to the user and the acceptance criteria it should follow.
+
+# Description of the user story
+
+A **user story** is a way to specify the features of a product by focusing on the user's needs and describes it from their point of view. Having the user as the main priority makes new features focused on increasing value for him.
+
+- **As a** <role/user>
+- **I want to** <function/functionality>
+- **So that** <benefit/value>
 
 ## INVEST criteria
 
@@ -17,12 +27,11 @@ The **Definition of Ready** (DoR) is a set of conditions that must be met before
 
 ## Acceptance criteria using GWT
 
-The GWT (Given-When-Then) structure used in writing the acceptance criteria helps us define the behaviour that the user story should have.
+The GWT (Given-When-Then) structure used in writing the acceptance criteria helps us define the behaviour that the user story should have. It is based on specific use scenarios, which are commonly performed during its execution.
 
 - **Given** &lt;pre-condition&gt;
 - **When** &lt;action&gt;
 - **Then** &lt;result&gt;
-
 
 ## Estimation in story points
 
