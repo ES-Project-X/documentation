@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Sprint 2
 
+**Goal:** Creation and filtering of points of interest. Creation of route with origin and destination.
+
 | Key   | Summary                                | Story Points |
 |-------|----------------------------------------|--------------|
 | ES-10 | Create POI                             | 5            |

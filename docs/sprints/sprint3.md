@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Sprint 3
 
+**Goal:** Authentication of users and creation of a profile. Basic interactions with points of interest.
+
 | Key   | Summary                                | Story Points |
 |-------|----------------------------------------|--------------|
 | ES-3  | Login                                  | 1            |
