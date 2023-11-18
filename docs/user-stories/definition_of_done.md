@@ -5,15 +5,17 @@ sidebar_position: 3
 
 # Definition of Done
 
-The **Definition of Done** (DoD) outlines the criteria that must be met for a user story or task to be considered complete. It ensures that all aspects of the development process are meticulously addressed and validated. A comprehensive DoD typically includes the following criteria:
+The **Definition of Done** (DoD) outlines the criteria that must be met for a user story or task to be considered complete. It ensures that all aspects of the development process are meticulously addressed and validated.
 
-## Tests for User Story
+In GitHub, pull requests to the `dev` and `master` branches must adhere to the quality gate criteria and review from two peers. Otherwise, it is not possible to merge the pull request. Reviewers are responsible for checking if the acceptance criteria has been followed, since there is no mechanism to automatically check if it.
 
-Before considering a user story complete, thorough tests need to be conducted to ensure that the functionality meets the specified requirements and operates as intended.
+## Tests following acceptance criteria
 
-## Quality Gate (Sonar Way)
+Tests that validate the the user story's acceptance criteria are correctly developed and pass. These can be unit tests of the code, or manual tests in case it is the most appropriate. The chosen type of test should be chosen depending on the developed feature.
 
-The Quality Gate assessment, following the Sonar Way approach, ensures that the code meets specific quality standards, including:
+## Sonar Cloud quality gate
+
+The quality gate assessment in Sonar Cloud, following the sonar way approach, ensures that the code meets specific quality standards.
 
 - More than 80% test coverage to guarantee comprehensive testing.
 - Less than 3% duplicated lines to promote code efficiency and maintainability.
@@ -21,14 +23,6 @@ The Quality Gate assessment, following the Sonar Way approach, ensures that the 
 - 100% review of security hotspots to eliminate potential vulnerabilities.
 - An "A" security rating to signify that the code meets stringent security standards.
 
-## Code Review by Peers
+## Code review by two peers
 
 A crucial step in the completion process involves a thorough code review by two randomly assigned peers. This ensures that the code is thoroughly examined, validated, and aligns with the established coding standards and best practices.
-
-## Updated Technical Documentation
-
-The completion of any task or user story mandates that the technical documentation is meticulously updated. This ensures that any changes or updates to the codebase are well-documented, allowing for ease of understanding and maintenance for future developments.
-
-
-<br></br><br></br>
-By adhering to these criteria, teams can ensure that every aspect of the development process, including testing, code quality, and documentation, is rigorously evaluated and fulfilled.
