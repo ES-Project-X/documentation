@@ -6,7 +6,9 @@ sidebar_position: 3
 
 | Key   | Summary                                | Story Points |
 |-------|----------------------------------------|--------------|
+| ES-3  | Login                                  | 1            |
 | ES-9  | Check POI Details                      | 1            |
+| ES-11 | Rate POI Existence                     | 1            |
 | ES-18 | Check Profile Details                  | 3            |
 | ES-20 | Modify Profile Details                 | 5            |
 | ES-28 | Get Route Directions                   | 3            |
