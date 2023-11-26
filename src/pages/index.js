@@ -16,9 +16,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin-horiz--md"
             to="/docs/category/user-stories">
-            Pedal to the Documentation
+            Documentation
+          </Link>
+          <Link
+            className="button button--secondary button--lg margin-horiz--md"
+            href="https://web.project-x.pt">
+            Web App
           </Link>
         </div>
       </div>

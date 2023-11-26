@@ -104,7 +104,6 @@ const config = {
               },
             ],
           },
-          {},
           {
             title: 'Team',
             items: [
@@ -130,7 +129,23 @@ const config = {
               }
             ],
           },
-          {},
+          {
+            title: 'Deployment (AWS)',
+            items: [
+              {
+                label: 'Web App',
+                href: 'https://web.project-x.pt',
+              },
+              {
+                label: 'REST API',
+                href: 'https://api.project-x.pt',
+              },
+              {
+                label: 'GraphHopper',
+                href: 'https://router.project-x.pt',
+              }
+            ],
+          },
           {
             title: 'Useful Links',
             items: [
