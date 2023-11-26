@@ -11,7 +11,9 @@ In GitHub, pull requests to the `dev` and `master` branches must adhere to the q
 
 ## Tests following acceptance criteria
 
-Tests that validate the the user story's acceptance criteria are correctly developed and pass. These can be unit tests of the code, or manual tests in case it is the most appropriate. The chosen type of test should be chosen depending on the developed feature.
+Tests that validate the the user story's acceptance criteria are correctly developed and pass. 
+- Web UI: Selenium tests must be developed, exported to Python PyTest and put in the Selenium tests folder inside the Web UI project. The new code should pass the Sonar Cloud QG, and in the pull request there should be screenshots demonstrating that all tests (old and new) are passing. If the behaviour is too complex to test with Selenium (e.g. visual change on the map), a screenshot demonstrating the behaviour should be taken and included in the pull request and test folder. Previous features tested with unit tests don't require Selenium tests.
+- REST API: unit tests must be developed and should pass the Sonar Cloud QG.
 
 ## Sonar Cloud quality gate
 
