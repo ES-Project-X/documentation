@@ -11,5 +11,5 @@ sidebar_position: 5
 | Key   | Summary                                | Story Points | Status      |
 |-------|----------------------------------------|--------------|-------------|
 | ES-15 | Check POI historical status            | 8            | In progress |
-| ES-67 | Check System logs                      | 2            | In progress |
+| ES-67 | Admin Logging and Monitoring           | 2            | Done        |
 | ES-69 | Access Web-UI through mobile device    | 13           | In progress |
