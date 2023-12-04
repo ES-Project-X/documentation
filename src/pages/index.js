@@ -23,7 +23,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg margin-horiz--md"
             href="https://web.project-x.pt">
-            Web App
+            Web App / PWA
+          </Link>
+          <Link
+            className="button button--secondary button--lg margin-horiz--md"
+            href=""> {/* TODO: add link to download page */}
+            Mobile App
           </Link>
         </div>
       </div>

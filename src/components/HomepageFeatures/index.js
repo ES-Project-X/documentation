@@ -3,17 +3,17 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-    {
-      title: 'Map View',
-      Svg: require('@site/static/img/doc-map-view-no-bg.svg').default,
-      description: (
-        <>
-          Find your current location, search for places or find new cyclying 
-          paths - the choice is yours. Map tiles are provided by CyclOSM,
-          a custom OpenStreetMap layer.
-        </>
-      ),
-    },
+  {
+    title: 'Map View',
+    Svg: require('@site/static/img/doc-map-view-no-bg.svg').default,
+    description: (
+      <>
+        Find your current location, search for places or find new cyclying
+        paths - the choice is yours. Map tiles are provided by CyclOSM,
+        a custom OpenStreetMap layer.
+      </>
+    ),
+  },
   {
     title: 'Route Planner',
     Svg: require('@site/static/img/doc-route-planner-no-bg.svg').default,
@@ -29,7 +29,7 @@ const FeatureList = [
     Svg: require('@site/static/img/doc-poi-no-bg.svg').default,
     description: (
       <>
-        Find useful places such as bicycle parking, water fountains or benches near you. 
+        Find useful places such as bicycle parking, water fountains or benches near you.
         Contribute to the community by adding or reviewing points of interest.
       </>
     ),
@@ -46,7 +46,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--3')}>
       <div className="text--center">
