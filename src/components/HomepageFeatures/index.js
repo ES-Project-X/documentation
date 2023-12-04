@@ -15,12 +15,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Route Planner',
+    title: 'Route Tracker & Planner',
     Svg: require('@site/static/img/doc-route-planner-no-bg.svg').default,
     description: (
       <>
-        Plan your next bicycle trip with the power of GraphHopper, a routing
-        engine which will plan the best route for you and your bicycle.
+        Record the path you take or plan your next bicycle trip with the power of GraphHopper, 
+        a routing engine which will plan the best route for you and your bicycle.
       </>
     ),
   },
