@@ -8,7 +8,7 @@ sidebar_position: 3
 
 Our architecture revolves around the cloud services provided by Amazon Web Services.
 
-- Amazon API Gateway: redirects requests to the correct service.
+- Amazon API Gateway: redirects requests to the correct load balancer in the private subnet.
 - Amazon Cognito: handles the authentication of our users.
 - Amazon ECS: orquestrates and scales our Docker containerized services.
   - Routing Engine: powered by GraphHopper, generates the most adequate route for a cyclist to take.
@@ -20,4 +20,4 @@ Our architecture revolves around the cloud services provided by Amazon Web Servi
 
 ## Architecture Diagram
 
-![Architecture Diagram](/img/architecture_diagram_v2.0.svg)
+![Architecture Diagram](/img/architecture_diagram_v2.1.svg)
