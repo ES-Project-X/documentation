@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# API Endpoints
+API Endpoints
 
-TODO
+Access the API Documention: [FastAPI - Swagger UI](https://gw.project-x.pt/api/docs)
