@@ -4,4 +4,4 @@ sidebar_position: 4
 
 # API Endpoints
 
-Access the **API Documention**: [FastAPI - Swagger UI](https://gw.project-x.pt/api/docs)
+The documentation using the OpenAPI specification is available [here](https://gw.project-x.pt/api/docs)
