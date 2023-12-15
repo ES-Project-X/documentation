@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Project X',
+  title: 'BiX',
   tagline: 'Community collaboration platform for bicycle users',
   favicon: 'img/logo.ico',
 
@@ -65,9 +65,9 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: 'Project X',
+        title: 'BiX',
         logo: {
-          alt: 'Project X Logo',
+          alt: 'BiX Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -160,7 +160,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Project X, Software Engineering 2023/24, Universidade de Aveiro. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BiX, Software Engineering 2023/24, Universidade de Aveiro. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

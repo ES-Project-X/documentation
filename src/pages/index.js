@@ -47,7 +47,7 @@ export default function Home() {
     return (
         <Layout
             title="Home"
-            description="Project X - Community collaboration platform for bicycle users">
+            description="BiX - Community collaboration platform for bicycle users">
             <HomepageHeader />
             <main>
                 <HomepageFeatures />

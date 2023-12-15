@@ -1,4 +1,4 @@
-# Project X - Documentation
+# BiX - Documentation
 
 ## Description
 
