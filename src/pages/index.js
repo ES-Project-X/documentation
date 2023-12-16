@@ -32,7 +32,7 @@ function HomepageHeader() {
                     <div className={clsx('col col--4')} style={{marginBottom: "2rem"}}>
                         <Link
                             className="button button--secondary button--lg margin-horiz--md"
-                            href=""> {/* TODO: add link to download page */}
+                            href="https://mega.nz/file/EXtSzCYa#DpO4bENoirBp7rD-xxUfhs4TajcFwf1IuraHHepm6QQ">
                             Mobile App
                         </Link>
                     </div>
