@@ -36,9 +36,14 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      'docusaurus-preset-openapi',
+      /** @type {import('docusaurus-preset-openapi').Options} */
+      {
+        api: {
+          // Update the path to your OpenAPI documentation
+          path: require.resolve('./openapi.json'),
+          routeBasePath: '/api',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -56,7 +61,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
@@ -76,6 +81,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            label: 'API',
+            position: 'left',
+            href : '/api', 
           },
           {
             href: 'https://github.com/ES-Project-X',
