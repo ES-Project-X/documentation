@@ -42,7 +42,7 @@ const config = {
         api: {
           // Update the path to your OpenAPI documentation
           path: require.resolve('./openapi.json'),
-          routeBasePath: '/docs/api_endpoints/',
+          routeBasePath: '/api',
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -84,6 +84,7 @@ const config = {
           },
           {
             label: 'API',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             href: '/api',
           },
