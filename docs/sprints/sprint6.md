@@ -10,8 +10,8 @@ sidebar_position: 6
 
 | Key    | Summary                                | Story Points | Status      |
 |--------|----------------------------------------|--------------|-------------|
-| ES-132 | Access routes through profile page     | 3            | In progress |
-| ES-133 | Record route based on GPS position     | 8            | In progress |
+| ES-132 | Access routes through profile page     | 3            | Done        |
+| ES-133 | Record route based on GPS position     | 8            | Done        |
 
 
 ## Sprint Retrospective
