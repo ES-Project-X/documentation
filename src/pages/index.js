@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import ReactPlayer from 'react-player'
 
 import styles from './index.module.css';
 
@@ -15,27 +16,30 @@ function HomepageHeader() {
                 <h1 className="hero__title">{siteConfig.title}</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
                 <div className="row">
-                    <div className={clsx('col col--4')} style={{marginBottom: "2rem"}}>
+                    <div className={clsx('col col--4')} style={{ marginBottom: "2rem" }}>
                         <Link
                             className="button button--secondary button--lg margin-horiz--md"
                             to="/docs/category/user-stories">
                             Documentation
                         </Link>
                     </div>
-                    <div className={clsx('col col--4')} style={{marginBottom: "2rem"}}>
+                    <div className={clsx('col col--4')} style={{ marginBottom: "2rem" }}>
                         <Link
                             className="button button--secondary button--lg margin-horiz--md"
                             href="https://web.project-x.pt">
                             Web App / PWA
                         </Link>
                     </div>
-                    <div className={clsx('col col--4')} style={{marginBottom: "2rem"}}>
+                    <div className={clsx('col col--4')} style={{ marginBottom: "2rem" }}>
                         <Link
                             className="button button--secondary button--lg margin-horiz--md"
                             href="https://mega.nz/file/gPdB3T7K#GxBb6aAbAsNU_cKNILqXBND_S6Ztos2Arfs02c31srA">
                             Mobile App
                         </Link>
                     </div>
+                </div>
+                <div className="row" style={{ justifyContent: "center" }}>
+                    <ReactPlayer playing muted controls url='https://youtu.be/e460_5LFZ9c' />
                 </div>
             </div>
         </header >
